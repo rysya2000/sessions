@@ -1,0 +1,185 @@
+{
+    "filterSetId": "aa770327-5df3-4616-8d97-0d5c0279fa5e",
+    "paging": {
+        "pageNum": 0,
+        "pageSize": 20,
+        "totalCount": 2
+    },
+    "sessions": [
+        {
+            "audioFileUrl": null,
+            "botId": "1000063828-bot_just_tour-1000063828-Jay-20941239914",
+            "callTaskId": null,
+            "channelType": "chatwidget",
+            "client": {
+                "firstName": "ChatWidget",
+                "id": "dead4c08-f1e0-695e-cf4e-9f20163d87c6",
+                "lastName": "dead4c08-f1e0-695e-cf4e-9f20163d87c6",
+                "username": null
+            },
+            "customFields": null,
+            "duration": 1999047,
+            "firstQuestion": "хочу съездить в испанию",
+            "isCallIncoming": null,
+            "isLivechat": false,
+            "labels": null,
+            "lastQuestion": "без комментариев",
+            "projectShortName": "bot_just_tour-1000063828-Jay",
+            "questionCount": 17,
+            "responseData": {
+                "answer": "** Ваша заявка **: \n*  Имя: Раиля\n* Номер телефона: 79991234567\n* Город или страна: Испания\n* Количество взрослых: 2\n* Количество детей: 1\n* Желаемый бюджет поездки: 70000\n* Желаемую звездность отеля: 4\n* Дата поездки: 15.04.2023\n* Длительность поездки в днях: 14\n* Ваш комментарий для менеджера: без комментариев\n\nБлагодарю за обращение. Наш менеджер свяжется с Вами в ближайшее время для подтверждения деталей заявки на тур. Всего доброго",
+                "debugData": [
+                    {
+                        "fromStatePath": "/TourTheme/TourRequestFill/Comment",
+                        "locator": {
+                            "col": 20,
+                            "filename": "src/tourRequest.sc",
+                            "line": 712,
+                            "storageType": "RUNTIME"
+                        },
+                        "tagName": "q",
+                        "tagStatePath": "/TourTheme/TourRequestFill/Comment/HaveComment",
+                        "toStatePath": "/TourTheme/TourRequestFill/Comment/HaveComment"
+                    },
+                    {
+                        "locator": {
+                            "col": 17,
+                            "filename": "src/tourRequest.sc",
+                            "line": 716,
+                            "storageType": "RUNTIME"
+                        },
+                        "tagName": "go!",
+                        "tagStatePath": "/TourTheme/TourRequestFill/Comment/HaveComment",
+                        "toStatePath": "/Confirmation"
+                    },
+                    {
+                        "locator": {
+                            "col": 9,
+                            "filename": "src/main.sc",
+                            "line": 57,
+                            "storageType": "RUNTIME"
+                        },
+                        "tagName": "go!",
+                        "tagStatePath": "/Confirmation",
+                        "toStatePath": "/SendEmail"
+                    },
+                    {
+                        "locator": {
+                            "col": 9,
+                            "filename": "src/main.sc",
+                            "line": 68,
+                            "storageType": "RUNTIME"
+                        },
+                        "tagName": "go!",
+                        "tagStatePath": "/SendEmail",
+                        "toStatePath": "/Bye"
+                    }
+                ],
+                "endSession": true,
+                "newSessionStarted": false,
+                "replies": [
+                    {
+                        "lang": "ru",
+                        "state": "/Confirmation",
+                        "text": "** Ваша заявка **: \n*  Имя: Раиля\n* Номер телефона: 79991234567\n* Город или страна: Испания\n* Количество взрослых: 2\n* Количество детей: 1\n* Желаемый бюджет поездки: 70000\n* Желаемую звездность отеля: 4\n* Дата поездки: 15.04.2023\n* Длительность поездки в днях: 14\n* Ваш комментарий для менеджера: без комментариев",
+                        "type": "text"
+                    },
+                    {
+                        "lang": "ru",
+                        "state": "/Bye",
+                        "text": "Благодарю за обращение. Наш менеджер свяжется с Вами в ближайшее время для подтверждения деталей заявки на тур. Всего доброго",
+                        "type": "text"
+                    }
+                ],
+                "sessionId": "dead4c08-f1e0-695e-cf4e-9f20163d87c6.ea191ff5-c564-4c5e-ad19-07623e7fe6f3",
+                "smartRandom": [
+                    1
+                ]
+            },
+            "sessionData": {},
+            "sessionId": "dead4c08-f1e0-695e-cf4e-9f20163d87c6.ea191ff5-c564-4c5e-ad19-07623e7fe6f3",
+            "sessionResult": null,
+            "startTime": "2023-03-15T11:34:54.048Z",
+            "textCampaignId": null,
+            "textCampaignResult": null
+        },
+        {
+            "audioFileUrl": null,
+            "botId": "1000063828-bot_just_tour-1000063828-Jay-20941239914",
+            "callTaskId": null,
+            "channelType": "chatwidget",
+            "client": {
+                "firstName": "ChatWidget",
+                "id": "dead4c08-f1e0-695e-cf4e-9f20163d87c6",
+                "lastName": "dead4c08-f1e0-695e-cf4e-9f20163d87c6",
+                "username": null
+            },
+            "customFields": null,
+            "duration": 79375,
+            "firstQuestion": "тур по японии",
+            "isCallIncoming": null,
+            "isLivechat": false,
+            "labels": null,
+            "lastQuestion": "а на 30 марта какая погода",
+            "projectShortName": "bot_just_tour-1000063828-Jay",
+            "questionCount": 8,
+            "responseData": {
+                "answer": "Какую сумму Вы планируете выделить на поездку?",
+                "debugData": [
+                    {
+                        "fromStatePath": "/TourTheme/TourRequestFill/NumberKids",
+                        "locator": {
+                            "col": 20,
+                            "filename": "src/tourRequest.sc",
+                            "line": 389,
+                            "storageType": "RUNTIME"
+                        },
+                        "tagName": "q",
+                        "tagStatePath": "/TourTheme/TourRequestFill/NumberKids/HaveNumberKids",
+                        "toStatePath": "/TourTheme/TourRequestFill/NumberKids/HaveNumberKids"
+                    },
+                    {
+                        "locator": {
+                            "col": 17,
+                            "filename": "src/tourRequest.sc",
+                            "line": 393,
+                            "storageType": "RUNTIME"
+                        },
+                        "tagName": "go!",
+                        "tagStatePath": "/TourTheme/TourRequestFill/NumberKids/HaveNumberKids",
+                        "toStatePath": "/TourTheme/TourRequestFill/Budget"
+                    }
+                ],
+                "newSessionStarted": false,
+                "replies": [
+                    {
+                        "lang": "ru",
+                        "state": "/TourTheme/TourRequestFill/Budget",
+                        "text": "Какую сумму Вы планируете выделить на поездку?",
+                        "type": "text"
+                    },
+                    {
+                        "buttons": [
+                            {
+                                "text": "Пропустить",
+                                "transition": "/TourTheme/TourRequestFill/Budget/SkipQuestion"
+                            }
+                        ],
+                        "state": "/TourTheme/TourRequestFill/Budget",
+                        "type": "buttons"
+                    }
+                ],
+                "sessionId": "dead4c08-f1e0-695e-cf4e-9f20163d87c6.5f41bd4c-d90d-45cb-a808-edf668cf0ede",
+                "smartRandom": [
+                    2
+                ]
+            },
+            "sessionData": {},
+            "sessionId": "dead4c08-f1e0-695e-cf4e-9f20163d87c6.5f41bd4c-d90d-45cb-a808-edf668cf0ede",
+            "sessionResult": null,
+            "startTime": "2023-03-15T11:32:14.327Z",
+            "textCampaignId": null,
+            "textCampaignResult": null
+        }
+    ]
+}
